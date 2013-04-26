@@ -4,6 +4,7 @@ gem 'rails', '3.0.12'
 gem 'gravatar_image_tag', '1.0.0.pre2'
 gem 'will_paginate', '3.0.pre2'
 gem 'sqlite3', '1.3.4', :group => :development
+gem 'pg', :require => 'pg'
 
 group :development do
   gem 'rspec-rails', '2.6.1'
@@ -23,6 +24,3 @@ group :test do
 end
 
 
-group :production do
-  gem "pg", "~> 0.11.0"
-end
